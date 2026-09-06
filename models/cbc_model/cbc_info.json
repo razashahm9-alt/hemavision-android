@@ -1,0 +1,26 @@
+{
+  "NEUTROPHIL": {
+    "normal": "2500-7500 cells/\u00b5L",
+    "high": "Bacterial infection",
+    "low": "Viral infection",
+    "cancer": "High in Leukemia"
+  },
+  "LYMPHOCYTE": {
+    "normal": "1000-4800 cells/\u00b5L",
+    "high": "Lymphoma, CLL",
+    "low": "Immunodeficiency",
+    "cancer": "Key marker for Lymphoma"
+  },
+  "MONOCYTE": {
+    "normal": "200-800 cells/\u00b5L",
+    "high": "Chronic infection",
+    "low": "Bone marrow disorder",
+    "cancer": "Elevated in Myeloma"
+  },
+  "EOSINOPHIL": {
+    "normal": "100-400 cells/\u00b5L",
+    "high": "Allergies, Lymphoma",
+    "low": "Not significant",
+    "cancer": "Hodgkin Lymphoma marker"
+  }
+}

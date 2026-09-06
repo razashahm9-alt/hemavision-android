@@ -1,0 +1,63 @@
+# IDE and operating-system files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Flutter and Dart generated files
+**/.dart_tool/
+**/.pub-cache/
+**/.pub/
+**/build/
+**/.flutter-plugins-dependencies
+**/coverage/
+
+# Python environments and cache
+**/.venv/
+**/venv/
+**/__pycache__/
+**/*.py[cod]
+**/.pytest_cache/
+
+# Android and signing configuration
+**/android/.gradle/
+**/android/local.properties
+**/android/key.properties
+**/*.jks
+**/*.keystore
+
+# iOS generated files
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/ephemeral/
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+
+# Credentials and local configuration
+**/.env
+**/.env.*
+!**/.env.example
+hemavision/lib/firebase_options.dart
+hemavision/lib/utils/api_keys.dart
+hemavision/android/app/google-services.json
+hemavision/ios/Runner/GoogleService-Info.plist
+
+# Large AI model weights
+models/**/*.pt
+models/**/*.pth
+models/**/*.safetensors
+models/**/*.bin
+models/**/*.ckpt
+models/**/*.onnx
+models/**/*.tflite
+
+# Logs, archives, and temporary development files
+*.log
+*.zip
+hemavision/chrome_screenshot.png
+hemavision/cdp_*.ps1
+hemavision/connect_firebase.ps1
+
+# Local package cache
+pub_cache/

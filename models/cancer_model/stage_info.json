@@ -1,0 +1,22 @@
+{
+  "Leukemia": {
+    "Stage 1": "WBC < 30 \u2014 Early, treatable",
+    "Stage 2": "WBC 30-50 \u2014 Moderate",
+    "Stage 3": "WBC 50-100 \u2014 Severe",
+    "Stage 4": "WBC > 100 \u2014 Critical"
+  },
+  "Lymphoma": {
+    "Stage 1": "Hgb > 12 \u2014 Early",
+    "Stage 2": "Hgb 10-12 \u2014 Mild",
+    "Stage 3": "Hgb 8-10 \u2014 Moderate",
+    "Stage 4": "Hgb < 8 \u2014 Severe"
+  },
+  "Myeloma": {
+    "Stage 1": "Platelets > 100 \u2014 Early",
+    "Stage 2": "Platelets 50-100 \u2014 Moderate",
+    "Stage 3": "Platelets < 50 \u2014 Severe"
+  },
+  "Normal": {
+    "Stage": "No cancer detected"
+  }
+}

@@ -1,0 +1,5 @@
+﻿class ApiKeys {
+  static const String googlePlaces = 'YOUR_GOOGLE_PLACES_API_KEY';
+  static const String newsApi = 'YOUR_NEWS_API_KEY';
+  static const String openWeather = 'YOUR_OPENWEATHER_API_KEY';
+}

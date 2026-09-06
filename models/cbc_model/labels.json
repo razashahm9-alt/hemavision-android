@@ -1,0 +1,11 @@
+{
+  "labels": [
+    "EOSINOPHIL",
+    "LYMPHOCYTE",
+    "MONOCYTE",
+    "NEUTROPHIL"
+  ],
+  "best_acc": 88.94594594594595,
+  "start_acc": 86.5945945945946,
+  "epoch": 13
+}
