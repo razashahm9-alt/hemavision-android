@@ -1,4 +1,4 @@
-﻿# HemaVision â€” Flutter Blood Analysis Research Prototype
+# HemaVision - Flutter Blood Analysis Research Prototype
 
 HemaVision is a Flutter application that connects to a local FastAPI and PyTorch inference service for experimental blood-image classification and CBC-value screening. It combines three separate analysis workflows with Firebase authentication, report history, dashboard visualizations, export tools, and configurable themes.
 
@@ -94,7 +94,7 @@ Image-only analyses correctly report stage as `N/A`. Manual CBC staging is expli
 
 ## Model information
 
-Both image classifiers use `ViTForImageClassification` with 224 Ã— 224 RGB inputs, 12 transformer layers, 12 attention heads, and a hidden size of 768.
+Both image classifiers use `ViTForImageClassification` with 224 x 224 RGB inputs, 12 transformer layers, 12 attention heads, and a hidden size of 768.
 
 | Model | Classes | Metadata checkpoint metric |
 |---|---|---|
@@ -126,32 +126,27 @@ The Flutter client communicates with the local bridge over HTTP. The bridge load
 
 ```text
 HemaVision_Android/
-â”œâ”€â”€ .gitignore
-â”œâ”€â”€ README.md
-â”œâ”€â”€ LICENSE
-â”œâ”€â”€ models/
-â”‚   â”œâ”€â”€ README.md
-â”‚   â”œâ”€â”€ cancer_model/
-â”‚   â””â”€â”€ cbc_model/
-â””â”€â”€ hemavision/
-    â”œâ”€â”€ firebase.json
-    â”œâ”€â”€ firestore.rules
-    â”œâ”€â”€ storage.rules
-    â”œâ”€â”€ android/
-    â”œâ”€â”€ ios/
-    â”œâ”€â”€ lib/
-    â”‚   â”œâ”€â”€ models/
-    â”‚   â”œâ”€â”€ screens/
-    â”‚   â”œâ”€â”€ services/
-    â”‚   â”œâ”€â”€ utils/
-    â”‚   â””â”€â”€ widgets/
-    â”œâ”€â”€ model_bridge/
-    â”‚   â”œâ”€â”€ server.py
-    â”‚   â”œâ”€â”€ requirements.txt
-    â”‚   â””â”€â”€ README.md
-    â”œâ”€â”€ test/
-    â”œâ”€â”€ web/
-    â””â”€â”€ pubspec.yaml
+|-- .gitignore
+|-- README.md
+|-- LICENSE
+|-- docs/
+|   `-- screenshots/
+|-- models/
+|   |-- README.md
+|   |-- cancer_model/
+|   `-- cbc_model/
+`-- hemavision/
+    |-- config_examples/
+    |-- android/
+    |-- ios/
+    |-- lib/
+    |-- model_bridge/
+    |-- test/
+    |-- web/
+    |-- firebase.json
+    |-- firestore.rules
+    |-- storage.rules
+    `-- pubspec.yaml
 ```
 
 ## Prerequisites
