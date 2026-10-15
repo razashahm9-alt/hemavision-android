@@ -16,7 +16,7 @@ The current project has been functionally verified on Windows using Flutter's Ch
 - `flutter test` passes.
 - `flutter analyze` reports no errors or warnings; remaining findings are informational lint notices.
 
-Android-emulator and physical-device connection settings are implemented, but the current verified demonstration environment is Flutter web in Chrome. The PyTorch models are served by the computer and are not embedded for on-device inference.
+The Android frontend has been installed on a physical phone through Android Studio. The installed app currently runs as a frontend without a connected model bridge. Image inference is verified in Flutter web on Chrome on a Windows laptop, using the local FastAPI/PyTorch model bridge. The models run on the computer and are not embedded in the mobile app.
 
 ## Screenshots
 
@@ -244,7 +244,7 @@ The Android emulator defaults to `http://10.0.2.2:8000`. For a physical phone on
 flutter run -d <device-id> --dart-define=MODEL_BRIDGE_BASE=http://<computer-ipv4>:8000
 ```
 
-Firewall permission may be required. Physical-device execution has not yet been validated for this repository release.
+Firewall permission may be required. The frontend is installed on a physical phone, but end-to-end model inference from the Android app has not yet been validated.
 
 ## API endpoints
 
